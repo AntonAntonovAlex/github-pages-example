@@ -54,6 +54,21 @@ body {
   background-image: url("img/icon-phone-header.svg");
 }
 
+.header-github {
+  padding-left: 25px;
+  background-image: url("img/icons-github-footer.svg");
+}
+
+.header-linkedin {
+  padding-left: 25px;
+  background-image: url("img/icons-linkedin-footer.svg");
+}
+
+.header-viber {
+  padding-left: 25px;
+  background-image: url("img/icon-viber-header.svg");
+}
+
 .hero-image {
   position: relative;
   height: 564px;
@@ -69,13 +84,14 @@ body {
 
 .heading {
   margin: 0 0 40px;
-  padding-left: 116px;
+  position: absolute;
   width: 928px;
-  font-size: 104px;
-  line-height: 120px;
+  font-size: 24px;
+  line-height: 12px;
   letter-spacing: -2px;
   font-weight: 400;
   color: #8da2ed;
+  text-align: center;
 }
 
 .hero-image p {
@@ -88,7 +104,7 @@ body {
 
 .intro {
   margin: 0 0 160px;
-  padding-top: 240px;
+  padding-top: 40px;
   padding-bottom: 80px;
   background-color: #fafbfd;
 }
@@ -111,7 +127,6 @@ body {
   left: 48px;
   font-size: 16px;
   line-height: 32px;
-  color: #222222;
 }
 
 .intro .subheading::before {
@@ -128,15 +143,18 @@ body {
 .user-image {
   margin: 0 0 32px;
   position: absolute;
-  top: 0;
-  left: 0;
+  height: 200px;
+  width: 200px;
+  border: 5px solid #8da2ed;
+  border-radius: 50%;
+  overflow: hidden;
+  left: 55px;
+  top: 15%;
+  transform: translateY(-50%)
 }
 
 .user-image img {
-  width: 688px;
-  height: 400px;
-  margin-left: 16px;
-  object-fit: cover;
+  width: 100%
 }
 
 .intro .container div {
