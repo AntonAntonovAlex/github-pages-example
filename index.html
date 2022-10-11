@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
-    <title>Сайт-портфолио</title>
+    <title>Anton-Portfolio</title>
   </head>
 
   <body>
@@ -12,8 +12,8 @@
       <div class="container">
         <a class="header-email" href="mailto:anton.mogilev@mail.ru">anton.mogilev@mail.ru</a>
         <a class="header-phone" href="tel:+375295476617">+375 (29) 547 66 77</a>
-        <a class="header-github" href="https://github.com/AntonAntonovAlex">github</a>
-        <a class="header-linkedin" href="https://www.linkedin.com/in/anton-antonau-953587252/">linkedin</a>
+        <a class="header-github" href="https://github.com/AntonAntonovAlex" target="_blank">github</a>
+        <a class="header-linkedin" href="https://www.linkedin.com/in/anton-antonov-953587252/" target="_blank">linkedin</a>
         <a class="header-viber" href="viber://chat?number=+375295476617">viber</a>
       </div>
     </header>
@@ -35,8 +35,49 @@
         <div class="container">
           <a class="subheading" href="#portfolio">Portfolio</a>
           <div>
-            <h3 id="portfolio">Пара слов о себе</h3>
-            <p>Я студент профессии «React-разработчик».</p>
+            <h3 id="portfolio">My projects</h3>
+            <ul class="portfolio__list">
+              <li class="portfolio__item">
+                <a class="portfolio__link" href="https://antonantonovalex.github.io/1889489-keksobooking-24/" target="_blank">
+                  <img class="portfolio__image" src="files/keksobooking.JPG" alt="keksobooking">
+                </a>
+                <div>
+                  <h4>Keksobooking</h4>
+                  <p>Here I used form validation, communication with back-end, developing on JavaScript.</p>
+                  <h5>JavaScript, AJAX, mouseEvent, Leaflet</h5>
+                </div>
+              </li>
+              <li class="portfolio__item">
+                <a class="portfolio__link" href="https://1889489-big-trip-16-j9jbta44v-antonantonovalex.vercel.app/" target="_blank">
+                  <img class="portfolio__image" src="files/big-trip.JPG" alt="big-trip">
+                </a>
+                <div>
+                  <h4>Big trip</h4>
+                  <p>It is final project after course "JavaScript. Architecture of Front-end Applications"</p>
+                  <h5>JavaScript ES6, SPA, MVC, AJAX, REST API</h5>
+                </div>
+              </li>
+              <li class="portfolio__item">
+                <a class="portfolio__link" href="https://1889489-what-to-watch-9.vercel.app/" target="_blank">
+                  <img class="portfolio__image" src="files/WTW.JPG" alt="what-to-watch">
+                </a>
+                <div>
+                  <h4>What to watch</h4>
+                  <p>This app is my project after the React Developer course. This is a site for watching movies online.</p>
+                  <h5>React, Redux, React Hooks, React Router, TypeScript, SPA, React Testing Library</h5>
+                </div>
+              </li>
+              <li class="portfolio__item">
+                <a class="portfolio__link" href="https://guitar-shop-react-starter-antonau.vercel.app/catalog/page_1" target="_blank">
+                  <img class="portfolio__image" src="files/guitar-shop.JPG" alt="keksobooking">
+                </a>
+                <div>
+                  <h4>Guitar shop</h4>
+                  <p>This app is my team collaboration project. I work on a project together with a project manager, a team leader, and a group of testers. This is a website for choosing and buying guitars online.</p>
+                  <h5>React, Redux, React Hooks, React Router, TypeScript, SPA, React Testing Library</h5>
+                </div>
+              </li>
+            </ul>
           </div>
       </section>
     </main>
